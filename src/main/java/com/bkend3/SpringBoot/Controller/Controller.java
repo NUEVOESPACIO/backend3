@@ -15,14 +15,14 @@ public class Controller {
     @CrossOrigin(origins = {"http://localhost:4200", "https://angularseba.web.app"})
     @GetMapping("/hola")
     public String decirHola(){
-        return "Bienvendio a Back End Sebas con Entity creado de Pais.java y agrgado GetMapping new/pais enviado por RequestBody";
+        return "Tiene Repository JPA interface en proceso de desarrollo y nuevo modelo bandera";
     }
     
     @CrossOrigin(origins = {"http://localhost:4200", "https://angularseba.web.app"})
     @PostMapping("/new/pais")
     public String agregarPais(@RequestBody Pais pai){
         
-        return "Agregado Clase Repostiry";
+        return "Agregado Clase Repostiry modelo badnera";
         
     }
    
