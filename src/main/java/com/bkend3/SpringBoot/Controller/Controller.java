@@ -15,14 +15,14 @@ public class Controller {
     @CrossOrigin(origins = {"http://localhost:4200", "https://angularseba.web.app"})
     @GetMapping("/hola")
     public String decirHola(){
-        return "Tiene Repository JPA interface en proceso de desarrollo y nuevo modelo bandera";
+        return "Agregue la capa Servicio";
     }
     
     @CrossOrigin(origins = {"http://localhost:4200", "https://angularseba.web.app"})
     @PostMapping("/new/pais")
     public String agregarPais(@RequestBody Pais pai){
         
-        return "Agregado Clase Repostiry modelo badnera";
+        return "Agregue la Capa Servicio";
         
     }
    
