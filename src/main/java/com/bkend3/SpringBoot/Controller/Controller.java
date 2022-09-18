@@ -12,7 +12,7 @@ public class Controller {
     @CrossOrigin(origins = {"http://localhost:4200", "https://angularseba.web.app"})
     @GetMapping("/hola")
     public String decirHola(){
-        return "Bienvendio a Back End Sebas 11";
+        return "Bienvendio a Back End Sebas con Entity creado de Pais.java";
     }
     
     @CrossOrigin(origins = {"http://localhost:4200", "https://angularseba.web.app"})
