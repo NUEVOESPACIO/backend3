@@ -4,6 +4,7 @@ package com.bkend3.SpringBoot.Controller;
 import com.bkend3.SpringBoot.model.Pais;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import org.springframework.web.bind.annotation.RestController;
@@ -18,7 +19,7 @@ public class Controller {
     }
     
     @CrossOrigin(origins = {"http://localhost:4200", "https://angularseba.web.app"})
-    @GetMapping("/new/pais")
+    @PostMapping("/new/pais")
     public void agregarPais(@RequestBody Pais pai){
         
     }
