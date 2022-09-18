@@ -20,7 +20,9 @@ public class Controller {
     
     @CrossOrigin(origins = {"http://localhost:4200", "https://angularseba.web.app"})
     @PostMapping("/new/pais")
-    public void agregarPais(@RequestBody Pais pai){
+    public String agregarPais(@RequestBody Pais pai){
+        
+        return "Agregado Clase Repostiry";
         
     }
    
