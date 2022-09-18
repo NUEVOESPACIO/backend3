@@ -25,7 +25,7 @@ public class Controller {
     @CrossOrigin(origins = {"http://localhost:4200", "https://angularseba.web.app"})
     @GetMapping("/hola")
     public String decirHola(){
-        return "Agregue la capa Servicio con interface";
+        return "Agregue la capa Servicio con interface y hasta aca llgu";
     }
     
     @CrossOrigin(origins = {"http://localhost:4200", "https://angularseba.web.app"})
@@ -37,7 +37,7 @@ public class Controller {
     @CrossOrigin(origins = {"http://localhost:4200", "https://angularseba.web.app"})
     @GetMapping("/ver/paises")
     @ResponseBody
-    public List<Pais> listarpaiss(){
+    public List<Pais> listarpais(){
         return paisServ.verPais();        
     }
     
@@ -47,6 +47,5 @@ public class Controller {
         paisServ.borrarPais(id);        
     }
     
-   
     
 }
